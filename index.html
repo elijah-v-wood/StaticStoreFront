@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Boxstore</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+   <!-- Header -->
+   <div class="problemSolver">
+   <header>
+
+       <div class="navbar">
+           <a id="menutoggle">
+               <img id="ham" src="img/hammyboi.png" width="20px" height="20" onclick="myFunction()">
+            </a>
+           <a href="#">
+               <img src="img/facebook_20.png" 
+               alt="Facebook" border="0" class="socialIcon"/>
+            </a>
+            <a href="#">
+                <img src="img/twitter_20.png" 
+                alt="Twitter" border="0" class="socialIcon"/>
+            </a>
+            <a href="#">
+                <img src="img/google_plus_20.png" 
+                alt="Google Plus" border="0" class="socialIcon"/>
+            </a>
+        </div>
+        <!-- Hidden Nav -->
+        <div class="hiddenNav">
+            <ul id="hiddenNav">
+                <li><a href="#">Home</a></li>
+                <hr/>
+                <li><a href="#">About Us</a></li>
+                <hr/>
+                <li><a href="#">Locations & Hours</a></li>
+                <hr/>
+                <li><a href="#">Contact Us</a></li>
+                <hr/>
+            </ul>
+        </div>
+        
+        <div class="logo">
+            <h1>The Boxstore</h1>
+            <img src="img/boxghost.png"/>
+        </div>
+    </header>
+    <div id="topspan"></div>
+    </div>
+    <!-- Store -->
+    <section class="store">
+        <div class="row">
+            <div class="item" >
+                <img src="img/corrugated500x500.jpg" width="250px" height="250px" id="forsale">
+                <h2>Corrugated Boxes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    nihil, eveniet aliquid culpa officia aut!
+                </p>
+                <button id="order"><a href="#">Order</a></button>
+            </div>
+            <div class="item" >
+                <img src="img/paperboard330x330.jpg" width="250px" height="250px" id="forsale"/>
+                <h2>Paperboard Boxes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    nihil, eveniet aliquid culpa officia aut!
+                </p>
+                <button id="order"><a href="#">Order</a></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item" id="forsale">
+                <img src="img/matboard1000x740.jpg" width="250px" height="250px" id="forsale"/>
+                <h2>Matboard Boxes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    nihil, eveniet aliquid culpa officia aut!
+                </p>
+                <button id="order"><a href="#">Order</a></button>
+            </div>
+            <div class="item" id="forsale">
+                <img src="img/framecrate465x433.jpg" width="250px" height="250px" id="forsale"/>
+                <h2>Framecrate</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    nihil, eveniet aliquid culpa officia aut!
+                </p>
+                <button id="order"><a href="#">Order</a></button>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="item" id="forsale">
+                <img src="img/opencrate1800x1800.jpg" width="250px" height="250px" id="forsale"/>
+                <h2>Opencrate Boxes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    nihil, eveniet aliquid culpa officia aut!
+                </p>
+                <button id="order"><a href="#">Order</a></button>
+            </div>
+        </section>
+        <!-- Search& RSS Feed -->
+        <div class="search">
+            <div class="filter">
+                <input type="search" placeholder="Search" id="search"/>
+                <h3>Filter Search:</h3>
+                <ul>
+                    <li><a href="#">Cardboard</a></li>
+                    <li><a href="#">Mat</a></li>
+                    <li><a href="#">Wood frame</a></li>
+                </ul>
+                <div class="rss" style="overflow:scroll; height:150px;">
+                    <h5><a href="#">Rise in the cost of Wood</a></h5>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <hr/>
+                    <h5><a href="#">New profitable Venture</a></h5>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <hr/>
+    
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="splitter"></div>
+        <footer id="footer">
+            <ul>
+                <li><a href="#">Legal thing you dont care about</a></li>
+                <li>|</li>
+                <li><a href="#">Help desk you're not supposed to find</a></li>
+                <li>|</li>
+            </ul>
+            
+        </footer>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("hiddenNav");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+                x.style.border= "0px";
+              } else {
+                x.style.display = "block";
+                x.style.border="5px solid rbg(59, 60, 61)"
+              }
+            }
+            </script>
+
+
+
+    </body>
+    </html>
